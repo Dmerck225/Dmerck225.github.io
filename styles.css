@@ -1,0 +1,18 @@
+body {
+background: light blue;
+font-family: Arial;
+}
+h1 {
+color: white;
+text-align: center;
+}
+.assign {
+display: flex;
+padding: 10px;
+margin: 10px;
+background: light blue;
+}
+.assign img {
+width: 200px;
+padding: 10px;
+}
