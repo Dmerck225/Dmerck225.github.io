@@ -1,0 +1,49 @@
+/* Structure */
+
+body {
+    background : rgb(90, 149, 90);
+    font-family : Arial, Helvetica, sans-serif
+}
+
+#content {
+    background : white;
+    padding : 5px;
+    margin : 20px auto;  /* Centers div within the body. 20px top and bottom; sides are auto.*/
+    width : 70%;
+    border-radius: 10px;
+    border : 5px solid black;
+}
+
+/* Navigation */
+
+#main-nav ul{
+    padding-left: 0;
+}
+
+#main-nav li {
+    list-style-type: none; /* Removes bullets from list */
+    display: inline-flex; /* Displays list items horizontally */
+}
+
+#main-nav a {
+    text-decoration: none; /* Removes underline from links */
+    background : rgb(90, 149, 90);
+    color : white;
+    padding : 0 10px;
+    margin : 0 5px;
+    border-radius: 5px;
+}
+
+#main-nav a:hover {
+    background : rgb(0, 128, 0);
+}
+
+/* Typography */
+
+h1 {
+    color : red;
+}
+
+p {
+    color : brown;
+}
