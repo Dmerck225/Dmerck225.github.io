@@ -1,85 +1,127 @@
+/* Structure */
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'ariel', sans-serif;
     margin: 0;
     padding: 0;
-    background: #F5F5F5;
+    background-color: #FDEBD0;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Navigation */
-#main-nav ul {
-    padding-left: 0;
-}
-
-#main-nav li {
-    list-style-type: none;
-    display: inline-flex;
-}
-
-#main-nav a {
-    text-decoration: none;
-    background: #D9CCB4;
-    color: black;
-    padding: 0 10px;
-    margin: 0 5px;
-    border-radius: 5px;
-    display: block;
-}
-
-#main-nav a:hover {
-    background: #735645;
-}
-
-/* Typography */
-h1 {
+h2 {
     text-align: center;
+    color: #88D8C0;
 }
 
-/* Flexbox layout */
-.columns {
+/* First Section */
+.container {
     display: flex;
-    gap: 20px; /* Add space between sections */
-    padding: 20px;
 }
 
-.left {
+#main-content {
+    padding: 10px 0;
+}
+
+#main-section {
     flex: 3;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    background-color: #88D8C0;
 }
 
-.sub-section {
-    flex: 1 1 calc(50% - 10px); /* Adjust the size and spacing */
-    box-sizing: border-box;
-    background-color: #ddd;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.right {
+#links {
     flex: 1;
-    background-color: #f8f8f8;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    background: #DE5D83;
+}
+
+#links ul {
+    list-style-type: none;  /* Removes bullets from list */
+    margin-left: 0;
+    padding-left: 10px;
+}
+
+#links a {
+    color: white;
+}
+
+#links h3 {
+    margin-left: 10px;
+    color: white;
+}
+
+.box {
+    flex: 1 1 22%; /* Adjust to fit four items per row with some margin */
+    margin: 1%;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+}
+
+.box p {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+}
+
+
+/* Second Section */
+
+#container-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+    color: #88D8C0;
+}
+
+#container-2 h3 {
+    padding: 0 50px;
+}
+
+.img-section {
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+
+/* Navigation */
+
+nav {
+    width: 100%;
+    background-color: #DE5D83; 
+    padding: 0; 
+    margin: 0; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 0;
+    padding: 0 0;
+    display: flex; 
+    justify-content: space-around;
+}
+
+nav li {
+    flex: 1; 
+    text-align: center; 
+    border-right: 1px solid #88D8C0; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0; 
 }
 
 /* Media Queries */
-@media screen and (max-width: 768px) {
-    .columns {
+
+@media (max-width: 600px) {
+    .container {
         flex-direction: column;
     }
-
-    .left {
-        flex-wrap: nowrap;
-    }
-
-    .sub-section {
-        flex: 1 1 100%;
+    .box {
+        flex: 1 1 100%; /* Make each box take full width */
+        margin: 10px 0; /* Add some margin between boxes */
     }
 }
