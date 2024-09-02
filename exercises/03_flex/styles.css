@@ -61,11 +61,6 @@ img {
 
 /* apply to 600px and larger */
 @media only screen and (minowidth: 600px) {
-    
-}
-
-/* apply to 768px and larger */
-@media only screen and (minowidth: 768px) {
     .columns {
         display: flex;
     }
@@ -88,4 +83,9 @@ img {
     #main-nav li {
         flex: 1;
     }
+}
+
+/* apply to 768px and larger */
+@media only screen and (minowidth: 768px) {
+    
 }
