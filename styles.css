@@ -19,10 +19,10 @@ body {
     background: #566573;
     flex: 1;
     margin: 10px;
-    text-align: center;
+    text-align: center; 
 }
 
-.box h3 {
+.box h3 a {
     text-decoration: none;
     color: black;
 }
@@ -31,8 +31,8 @@ img {
     max-width: 100%;
 }
 
-
 /* Typography */
+
 h1 {
     text-align: center;
 }
