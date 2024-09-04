@@ -1,0 +1,89 @@
+/* Structure */
+
+:root {
+    --main-background-color: skyblue;
+}
+
+body {
+    background-color: var(--main-background-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    background-color: white;
+}
+
+.columns-all {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header */
+
+#main-header {
+    position: relative;
+}
+
+/* any child can now be positioned relative to it */
+
+#main-image {
+    margin-right: 10px;
+}
+
+/* Login Menu */
+
+#login-menu {
+    /* text-align: right; */
+    width: fit-content;
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    display: block;
+}
+
+#longin-menu ul {
+    display: none;
+    padding-left: 0;
+}
+
+#longin-menu li {
+    list-style-type: none;
+    margin: 30px;
+}
+
+#login-menu a {
+    text-decoration: none;
+    margin: auto;
+}
+
+
+/* 
+ Static: cant move. Static is default.
+ Absolute: relative to window/first non-static parent. doesnt reserve space.
+ Relative: reserves space in output. relative to where it origionally appears.
+*/
+
+/* Larger Resolutions */
+
+@media only screen and (min-width: 600px) {
+
+    #content {
+        width: 70%;
+        margin: auto;
+    }
+
+    .columns {
+        display: flex;
+    }
+
+    #settings {
+        display: none;
+    }
+
+    #login-menu {
+        display: flex;
+    }
+}
