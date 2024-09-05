@@ -10,6 +10,17 @@ body {
 
 .columns {
     display: flex;
+    
+}
+
+.section {
+    width: 70%;
+}
+
+/* Header */
+
+#menu {
+
 }
 
 /* Navigation */
@@ -20,8 +31,8 @@ body {
 }
 
 #main-nav ul {
-    list-style-type: none;
-    display: inline-flex; /* Gets rid of bullet points */
+    list-style-type: none; /* Gets rid of bullet points */
+    display: inline-flex; /* Makes the list items display horizontally */
     width: 100%; /* Makes the list items take up the full width of the nav */
     padding-left: 0; /* Gets rid of default padding */
 }
@@ -41,5 +52,13 @@ body {
 @media (max-width: 600px) {
     .columns {
         flex-direction: column;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #gateway {
+        display: none;
     }
 }
