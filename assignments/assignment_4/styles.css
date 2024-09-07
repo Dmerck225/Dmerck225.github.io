@@ -12,7 +12,6 @@ body {
 
 .container {
     display: flex;
-    justify-content: center;
     position: relative;
 }
 
@@ -33,29 +32,85 @@ body {
     max-width: 100%;
 }
 
+/* First Section */
+
 #box-one {
-    background-color: var(--main-background-color);
-    position: relative;
-    height: 300px;
     display: flex;
+    background-color: var(--main-background-color);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 350px;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #box-one-title {
     background-color: var(--secondary-background-color);
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: bold;
     color: var(--main-background-color);
-    height: 100px;
+    min-height: 100px;
     width: 60%;
-    position: absolute;
-    top: -18%;
-    left: 10%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: -15%;
+    left: 10%;
+    padding: 0;
 }
+
+#box-one-title p {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+#box-one-text {
+    width: 60%;
+    font-size: 20px;
+}
+
+/* Second Section */
+
+#box-two {
+    display: flex;
+    min-height: 500px;
+    width: 100%;
+    
+}
+
+#box-two-img { 
+    flex: 50%;
+    max-width: 100%;
+}
+
+#box-two-text {
+    background-color: var(--secondary-background-color);
+    color: var(--main-background-color);
+    flex: 50%;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-two-text p {
+    margin-left: 10px;
+    margin-right: 100px;
+}
+
+#box-two-text-one {
+    font-size: 40px;
+    margin: 5px;
+}
+
+/* Third Section */
 
 
 
@@ -186,6 +241,26 @@ body {
     #top-header {
         display: none;
     }
+
+    #box-one {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    
+    #box-one-title {
+        background-color: var(--main-background-color);
+        position: relative;
+        top: 0;
+        left: 0;
+        color: var(--secondary-background-color);
+    }
+
+    #box-one-text {
+        position: relative;
+        
+    }
+
 }
 
 /* flex wrap then percentage 
