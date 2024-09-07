@@ -182,6 +182,12 @@ body {
     }
 }
 
+@media only screen and (max-width: 1000px) {
+    #top-header {
+        display: none;
+    }
+}
+
 /* flex wrap then percentage 
     flex-wrap: wrap;
     flex: 30%;
