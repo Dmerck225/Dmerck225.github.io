@@ -34,17 +34,33 @@ body {
 #main-header {
     background-color: var(--tertiary-background-color);
     position: relative;
-    height: 100px;
+    height: 120px;
 }
 
 #main-logo {
+    display: flex;
+    align-items: center;
     position: absolute;
-    top: 50%;
-    left: 10%;
+    top: 30%;
+    left: 8%;
+    height: 60px;
+    width: 300px;
+    color: var(--main-background-color);
 }
 
-#main-logo img {
-    max-width: 100%;
+#main-logo-img {
+    padding: 10px;
+}
+
+#main-logo-text p {
+    position: relative;
+    top: 25px;
+}
+
+#main-logo-text h3{
+    position: relative;
+    bottom: 7px;
+    font-size: 30px;
 }
 
 #top-header {
@@ -109,17 +125,16 @@ body {
 #main-nav {
     background-color: var(--secondary-background-color);
     text-wrap: nowrap;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #main-nav ul {
     list-style-type: none; /* Gets rid of bullet points */
     display: inline-flex; /* Makes the list items display horizontally */
+    justify-content: space-evenly;
     width: 100%; /* Makes the list items take up the full width of the nav */
     padding-left: 0; /* Gets rid of default padding */
-}
-
-#main-nav li {
-    flex: 1;
 }
 
 #main-nav a {
@@ -127,6 +142,8 @@ body {
     padding: 0;
     text-align: center;
     text-decoration: none;  /* Gets rid of underline */
+    font-size: 20px;
+    font-weight: bold;
     color: var(--main-background-color);
 }
 
@@ -184,10 +201,10 @@ body {
     display: flex;
     min-height: 500px;
     width: 100%;
-    
+    background-color: var(--secondary-background-color);
 }
 
-#box-two-img { 
+#box-two-img img {
     flex: 50%;
     max-width: 100%;
 }
@@ -310,7 +327,6 @@ body {
 
 #box-six-img {
     position: relative;
-    top: -25px;
     max-width: 100%;
 }
 
@@ -322,6 +338,17 @@ body {
 
 /* Footer */
 
+#main-footer {
+    background-color: var(--secondary-background-color);
+    padding: 0;
+    margin: 0;
+}
+
+#footer-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
 #footer-top {
     position: relative;
     min-height: 100px;
@@ -329,7 +356,27 @@ body {
 
 #footer-logo {
     display: flex;
+    align-items: center;
     position: absolute;
+    top: 30%;
+    height: 60px;
+    width: 300px;
+    color: var(--main-background-color);
+}
+
+#footer-logo-img {
+    padding: 10px;
+}
+
+#footer-logo-text p {
+    position: relative;
+    top: 25px;
+}
+
+#footer-logo-text h3{
+    position: relative;
+    bottom: 7px;
+    font-size: 30px;
 }
 
 #footer-top-socials {
@@ -339,15 +386,9 @@ body {
 
 
 
-#main-footer {
-    background-color: var(--secondary-background-color);
-    padding: 0;
-    margin: 0;
-}
-
 .footer-middle-title {
     color: var(--main-background-color);
-    margin-left: 1%;
+    
     margin-right: 1%;
     font-size: 13px;
 }
@@ -355,8 +396,7 @@ body {
 #footer-middle {
     display: flex;
     justify-content: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    
 }
 
 .footer-middle-sections {
@@ -367,7 +407,7 @@ body {
     border-top: 1px solid var(--main-background-color);
     display: flex;
     font-size: 12px;
-    margin-left: 1%;
+    
     margin-right: 1%;
     padding-top: 15px;
 }
@@ -434,14 +474,6 @@ body {
         display: flex;
         flex-direction: column;
     }
-
-    #main-nav a {
-        padding: 10px;
-    }
-
-    #nav-img nav {
-        order: 1;
-    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -449,10 +481,29 @@ body {
         display: none;
     }
 
+    #main-nav ul {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #main-nav li {
+        padding: 10px;
+    }
+
     #box-one {
         display: flex;
         flex-direction: column;
         max-width: 100%;
+    }
+
+    #box-two {
+        flex-direction: column;
+    }
+
+    #box-two-img {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
     }
     
     #box-one-title {
