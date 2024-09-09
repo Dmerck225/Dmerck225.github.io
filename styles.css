@@ -8,16 +8,16 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: #B2BABB;
 }
 
 .box {
     padding: 10px 10px;
     background: #566573;
-    flex: 1;
+    flex: 1 1 22%;
     margin: 10px;
     text-align: center; 
 }
@@ -29,6 +29,12 @@ body {
 
 img {
     max-width: 100%;
+}
+
+/* Project Assignments */
+
+#projects {
+    margin-top: 50px;
 }
 
 /* Typography */
