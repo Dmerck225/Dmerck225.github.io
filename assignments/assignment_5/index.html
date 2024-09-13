@@ -13,13 +13,20 @@
         <div class="container">
             <section id="count" class="box">
                 <h3>Count</h3>
+                <p id="counter">0</p>    
             </section>
             <section id="image" class="box">
                 <h3>Random Image</h3>
+                <img id="random-image" src="https://picsum.photos/200" alt="Random Image">
             </section>
             <section id="slider" class="box">
                 <h3>Slider Move</h3>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                </div>
+                <img id="slider-img" src="https://placehold.co/200" alt="placeholder">
             </section>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
