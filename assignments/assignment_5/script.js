@@ -19,13 +19,11 @@ const slider = document.getElementById('myRange');
 const sliderImg = document.getElementById('slider-img');
 
 slider.oninput = function() {
-    const containerWidth = slider.parentElement.offsetWidth; // Get the container's width
-    const imgWidth = sliderImg.offsetWidth; // Get the image's width
-    const maxMove = containerWidth - imgWidth; // Calculate max movement distance
+    const containerWidth = slider.parentElement.offsetWidth; 
+    const imgWidth = sliderImg.offsetWidth; 
+    const maxMove = containerWidth - imgWidth; 
 
-    // Make sure we start moving left from 0 and not from the middle (50%)
-    const moveDistance = (this.value / 100) * maxMove;
-
-    // Update the left position of the image based on the slider's current value
+    const moveDistance = this.value / 100 * maxMove;
+    
     sliderImg.style.left = `${moveDistance}px`;
 };

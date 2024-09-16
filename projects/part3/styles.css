@@ -53,6 +53,10 @@ body {
     margin: 2%;
 }
 
+#home-image {
+    max-width: 100%;
+}
+
 #home-bottom {
     display: flex;
     justify-content: space-evenly;
