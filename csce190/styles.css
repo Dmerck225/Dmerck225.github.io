@@ -1,10 +1,76 @@
+:root {
+    --main-bg-color: white;
+    --secondary-background-color: #F1F2E9;
+    --main-text-color: darkred;
+}
+
+/* Header */
+
 body {
-    background: lightgray;
+    background: var(--main-bg-color);
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
 h1 {
-    color: darkred;
+    color: var(--main-text-color);
     text-align: center;
+    text-shadow: 5px 5px 5px #888888;
+}
+
+#main-content {
+    background: var(--secondary-background-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2%;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+/* about */
+
+#about-content {
+    background: var(--main-bg-color);
+    flex: 1;
+    text-align: center;
+    margin: 2%;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+/* skills */
+
+#skills-content {
+    background: var(--main-bg-color);
+    flex: 1;
+    text-align: center;
+    margin: 2%;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+/* skills */
+
+#project-content {
+    background: var(--main-bg-color);
+    flex: 1;
+    text-align: center;
+    margin: 2%;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+/* contact */
+
+#contact-content {
+    background: var(--main-bg-color);
+    flex: 1;
+    text-align: center;
+    margin: 2%;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    #main-content {
+        flex-direction: column;
+    }
 }
