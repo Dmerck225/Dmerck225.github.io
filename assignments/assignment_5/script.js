@@ -18,7 +18,7 @@ document.getElementById('random-image').onclick = () => {
 const slider = document.getElementById('myRange');
 const sliderImg = document.getElementById('slider-img');
 
-slider.oninput = function() {
+ slider.oninput = function() {
     const containerWidth = slider.parentElement.offsetWidth; 
     const imgWidth = sliderImg.offsetWidth; 
     const maxMove = containerWidth - imgWidth; 
@@ -26,4 +26,4 @@ slider.oninput = function() {
     const moveDistance = this.value / 100 * maxMove;
     
     sliderImg.style.left = `${moveDistance}px`;
-};
+ };
