@@ -60,6 +60,16 @@ body {
   h1 {
     text-align: center;
   }
+
+  /* Visibility */
+
+  .hidden {
+    display: none;
+  }
+
+  .hidden-small {
+    display: none;
+  }
   
   /* Larger Resolutions */
   
@@ -74,5 +84,9 @@ body {
 
     #toggle-nav {
       display: none;
+    }
+
+    .hidden-small {
+      display: flex;
     }
   }
