@@ -1,7 +1,7 @@
 :root {
     --main-bg-color: white;
     --secondary-background-color: #F1F2E9;
-    --main-text-color: darkred;
+    --main-text-color: #741D12;
 }
 
 /* Header */
@@ -9,13 +9,12 @@
 body {
     background: var(--main-bg-color);
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 h1 {
     color: var(--main-text-color);
     text-align: center;
-    text-shadow: 5px 5px 5px #888888;
+    
 }
 
 #main-content {
