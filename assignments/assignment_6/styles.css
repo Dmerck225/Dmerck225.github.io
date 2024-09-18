@@ -1,0 +1,118 @@
+:root {
+    --background-color: white;
+    --main-box-color: #F1F2E9;
+    --main-txt-color: #741D12;
+    --slider-color: black;
+}
+
+body {
+    background: var(--background-color);
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+/* Header */
+
+#main-header {
+    text-align: center;
+}
+
+#main-header h1 {
+    color: var(--main-txt-color);
+}
+
+#main-header h2 {
+    color: var(--slider-color);
+}
+
+/* Navigation */
+
+#main-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+#main-nav li {
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 1px solid var(--main-txt-color);
+}
+
+#main-nav li:last-child {
+    border-right: none;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: var(--main-txt-color);
+}
+
+/* Color Slider */
+
+#color-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#color-slider {
+    color: var(--background-color);
+    background: var(--slider-color);
+    height: 150px;
+    width: 300px;
+    text-align: center;
+    padding-right: 5px;
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: var(--main-txt-color); /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: var(--main-txt-color); /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+/* Picture Chooser */
+
+#pic-chooser {
+    color: var(--main-txt-color);
+    background: var(--main-box-color);
+    height: 100px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
