@@ -8,9 +8,9 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-left: 10%;
-    padding-right: 10%;
+    justify-content: space-between;
+    margin-left: 12%;
+    margin-right: 12%;
     background-color: #B2BABB;
 }
 
@@ -20,8 +20,7 @@ body {
     width: 300px;
     height: 460px;
     margin: 10px;
-    text-align: center; 
-    
+    text-align: center;
 }
 
 .box h3 a {
@@ -52,6 +51,14 @@ h2 {
 
 @media (max-width: 600px) {
     .container {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+    }
+
+    #projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
