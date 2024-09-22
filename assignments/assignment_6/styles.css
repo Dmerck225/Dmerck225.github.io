@@ -27,11 +27,15 @@ body {
 
 /* Navigation */
 
+#main-nav {
+    margin-bottom: 50px;
+}
+
 #main-nav ul {
     list-style-type: none;
-    display: flex;
-    justify-content: center;
     padding-left: 0;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 #main-nav li {
@@ -49,19 +53,44 @@ body {
     color: var(--main-txt-color);
 }
 
+.hidden {
+    display: none;
+}
+
+.hidden-small {
+    display: none;
+}
+
+.triangle-up {
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent; 
+    border-bottom: 10px solid black;
+    margin-left: 10%;
+}
+
+.triangle-down {
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black;
+    margin-left: 10%;
+  }
+
 /* Color Slider */
 
 #color-content {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
 }
 
 #color-slider {
     color: var(--background-color);
-    background: var(--slider-color);
+    background: rgb(0, 0, 0);
     height: 150px;
-    width: 300px;
+    width: 400px;
     text-align: center;
     padding-right: 5px;
 }
@@ -103,16 +132,57 @@ body {
 
 /* Picture Chooser */
 
+#pic-content {
+    display: flex;
+    justify-content: center;
+}
+
 #pic-chooser {
     color: var(--main-txt-color);
     background: var(--main-box-color);
-    height: 100px;
-    width: 300px;
+    min-height: 150px;
+    width: 400px;
+}
+
+#pic-chooser h3 {
     text-align: center;
+}
+
+#main-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.small-pic {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
 }
 
 /* Footer */
 
 footer {
     text-align: center;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 600px) {
+    #toggle-nav {
+        display: none;
+    }
+  
+    .hidden-small {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #main-nav li {
+        border-right: none;
+    }
 }

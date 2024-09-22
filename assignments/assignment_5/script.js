@@ -11,7 +11,7 @@ document.getElementById('count').onclick = () => {
 
 document.getElementById('random-image').onclick = () => {
     location.reload();
-}    
+};   
 
 // Slider
 

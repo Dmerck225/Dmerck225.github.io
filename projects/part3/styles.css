@@ -1,13 +1,26 @@
 :root {
+    --header-background-color: black;
+    --main-background-color: grey;
     --hover-color: #C0C0C0;
-    --text-color: black;
+    --main-text-color: black;
+    --secondary-text-color: white;
 }
+
 
 body {
     margin: 0;
 }
 
+/* Cards */
+
+
+
 /* Header */
+
+#main-header {
+    background: var(--header-background-color);
+    color: var(--secondary-text-color);
+}
 
 #logo {
     display: flex;
@@ -24,6 +37,7 @@ body {
 #main-nav {
     display: flex;
     padding: 10px;
+    background: var(--main-background-color);
 }
 
 #main-nav ul {
@@ -44,6 +58,7 @@ body {
 
 #main-nav a:hover {
     color: var(--hover-color);
+    border-bottom: 1px solid var(--hover-color);
 }
 
 /* Home */
