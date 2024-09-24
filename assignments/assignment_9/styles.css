@@ -1,0 +1,51 @@
+:root {
+    --background-color: white;
+    --main-box-color: #F1F2E9;
+    --main-txt-color: #741D12;
+    --slider-color: black;
+}
+
+body {
+    background: var(--background-color);
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+/* Header */
+
+#main-header {
+    text-align: center;
+}
+
+#main-header h1 {
+    color: var(--main-txt-color);
+}
+
+#main-header h2 {
+    color: var(--slider-color);
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 600px) {
+    #toggle-nav {
+        display: none;
+    }
+  
+    .hidden-small {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #main-nav li {
+        border-right: none;
+    }
+}
