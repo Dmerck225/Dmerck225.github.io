@@ -2,7 +2,8 @@
     --background-color: white;
     --main-box-color: #F1F2E9;
     --main-txt-color: #741D12;
-    --slider-color: black;
+    --star-output-color: black;
+    --star-color: yellow;
 }
 
 body {
@@ -23,6 +24,51 @@ body {
 
 #main-header h2 {
     color: var(--slider-color);
+}
+
+/* Stars */
+
+#star-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#star-content {
+    width: 400px;
+    height: 450px;
+    background: var(--main-txt-color);
+    padding: 2%;
+}
+
+#star-head {
+    display: flex;
+    align-items: center;
+}
+
+#star-head h3 {
+    margin-right: 10px;
+    color: var(--background-color);
+}
+
+#star-output {
+    background: var(--star-output-color);
+    border: 1px solid white;
+    height: 80%;
+    margin-top: 10px;
+    margin: 2%;
+    position: relative;
+}
+
+.star {  
+    background: var(--star-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    clip-path: polygon(50% 0,79% 90%,2% 35%,98% 35%,21% 90%); 
+    /* Got the star shape from https://css-shape.com/star/ */
 }
 
 /* Footer */
