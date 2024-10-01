@@ -46,3 +46,32 @@ document.getElementById("btn-count").onclick = (e) => {
         clearInterval(updateCount);
     }
 }
+
+// Learning Arrays
+
+let toys = ["drum", "ball", "rope", "balloon", "tire"]
+
+toys.forEach((toy) => {  //for each item execute a function  // for eventListener the event is the parameter, for forEach the item is the parameter
+    const p = document.createElement("p");
+    p.innerHTML = toy;
+    document.getElementById("list").append(p);
+});
+
+// Santas expenses
+
+let toyPrices = [];
+toyPrices["barbie"] = 7.54;
+toyPrices["doll house"] = 86.53;
+toyPrices["slide"] = 34.23;
+toyPrices["ken"] = 5.3;
+toyPrices["bike"] = 7.4;
+
+// Accosiative Array
+
+for(let toy in toyPrices) {
+    const tr = document.createElement("tr");
+    document.getElementById("table").append(tr);
+    const td = document.createElement("td");
+    td.innerHTML = toy;
+    document.getElementById("table").append(td);
+}
