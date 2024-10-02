@@ -17,7 +17,8 @@ for (const [src, description] of Object.entries(images)) {
     img.classList.add("image");
 
     img.addEventListener("click", () => {
-        descriptionDiv.innerHTML = `<h3>${description}</h3>`;
+        const title = src.split('/').pop().split('.')[0].replace(/_/g, ' '); 
+        descriptionDiv.innerHTML = `<h2>${title}</h2><h3>${description}</h3>`;
     });
 
     imagesDiv.appendChild(img);
