@@ -17,5 +17,11 @@ document.getElementById("star-button").onclick = (e) => {
         star.style.top = `${Math.random() * 95}%`;
         star.style.left = `${Math.random() * 95}%`;
         output.append(star);
-    }
-}
+        const starNumber = i + 1;
+
+        star.onclick = () => {
+            const message = document.getElementById("star-message");
+            message.innerHTML = `You clicked on star #${starNumber}`;
+        };
+    };
+};
