@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>DeckMaster Archive</title>
+    </head>
+    <body>
+
+        <header id="main-header">
+            <div id="logo">
+                <img src="images/DeckMasterArchive-logo.jpeg" alt="DeckMaster Archive Logo">
+                <h1>DeckMaster Archive</h1>
+            </div>
+            <div id="login">
+                <a href="login.html">Login</a>
+            </div>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="cardLibrary.html">Card Library</a></li>
+                    <li><a href="deckBuilder.html">Deck Builder</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="deckMasterAdmin.html">DeckMaster Admin</a></li>
+                </ul>
+        </header>
+        
+        <h1 id="admin-title" >DeckMaster Admin</h1>
+
+        <h2 id="secondary-admin-title">Card Management</h2>
+
+        <div id="admin-content">
+            
+            <div id="admin-search-button">
+                <button>Search</button>
+            <input type="text" placeholder="Search for a card">
+            </div>
+
+            <div id="admin-search">
+                <seciton id="admin-search-cards">
+                    
+                    <div class="card-container epic">
+                        <div class="card-content">
+                            <div class="card-title">
+                                <h1>Phoenix Guardian</h1>
+                            </div>
+                            <div class="card-img">
+                                <img src="images/phoenix.jpeg" alt="Phoenix">
+                            </div>
+                            <div class="card-rarity epic">
+                                <p>Rarity: Epic</p>
+                            </div>
+                            <div class="card-moves">
+                                <p>Rebirth: Once per game, resurrects after being destroyed with half health.</p>
+                                <p>Flame Wings: Deals 50 damage to an enemy and burns them for 10 damage over time.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container legendary">
+                        <div  class="card-content">
+                            <div class="card-title">
+                                <h1>Thunder Golem</h1>
+                            </div>
+                            <div class="card-img">
+                                <img src="images/thunder-golem.jpeg" alt="Thunder Golem">
+                            </div>
+                            <div class="card-rarity legendary">
+                                <p>Rarity: Legendary</p>
+                            </div>
+                            <div class="card-moves">
+                                <p>ThunderStorm Blast:  Upon entering the battlefield, Thunder Golem deals 30 damage to all enemy creatures.</p>
+                                <p>Electric Shield: Reduces incoming damage by 20% from all sources. This move reflects the golem's natural defense, absorbing and dispersing energy from attacks.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container rare">
+                        <div class="card-content">
+                            <div class="card-title">
+                                <h1>Shadow Assassin</h1>
+                            </div>
+                            <div class="card-img">
+                                <img src="images/shadow-assasin.jpeg" alt="shadow-assasin">
+                            </div>
+                            <div class="card-rarity rare">
+                                <p>Rarity: Rare</p>
+                            </div>
+                            <div class="card-moves">
+                                <p>Stealth Strike: Shadow Assassin can attack directly, bypassing defenses, once per turn. This allows it to deal damage without being blocked or countered by other creatures.</p>
+                                <p>Evasive Maneuver: Shadow Assassin has a 50% chance to completely avoid incoming attacks.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </seciton>
+                <section id="admin-buttons">
+                    <button id="edit-button">Edit</button>
+                    <button id="delete-button">Delete</button>
+                </section>
+            </div>
+
+            <div id="add-card-content">
+                <h2>Add Card</h2>
+                <div id="admin-container" class="container">
+                    
+                    <section class="admin-box">
+                        <h3>Basic Information</h3>
+                        <div class="admin-input">
+                            <p>Name</p>
+                            <input class="admin-input-box" type="text" placeholder="Enter Name">
+                        </div>
+                        <div class="admin-input">
+                            <p>Card Type</p>
+                            <input class="admin-input-box" type="text" placeholder="Enter Type">
+                        </div>
+                    </section>
+
+                    <section class="admin-box">
+                        <h3>Card Details</h3>
+                        <div class="admin-input">
+                            <p>Rarity</p>
+                            <input class="admin-input-box" type="text" placeholder="Enter Rarity">
+                        </div>
+                        <div class="admin-input">
+                            <p>Card Description</p>
+                            <input id="input-description" class="admin-input-box" type="text" placeholder="Enter Description">
+                        </div>
+                    </section>
+                    
+                    <section class="admin-box">
+                        <h3>Attributes</h3>
+                        <div class="admin-input">
+                            <p>Attack Stats</p>
+                            <input class="admin-input-box" type="text" placeholder="Enter Attack Stats">
+                        </div>
+                        <div class="admin-input">
+                            <p>Defense Stats</p>
+                            <input class="admin-input-box" type="text" placeholder="Enter Defense Stats">
+                        </div>
+                        <div class="admin-input">
+                            <p>Special Abilities</p>
+                            <input class="admin-input-box" type="text" placeholder="Enter Special Abilities">
+                        </div>
+                    </section>
+                    
+                    <section id="add-button-section" class="admin-box">
+                        <button id="add-button">Add Card</button>
+                    </section>
+                </div>
+            </div>
+
+            <div id="template-card-container">
+
+                <h3>Template Card: </h3>
+                
+                <div class="card-container common">
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h1>Card Name</h1>
+                        </div>
+                        <div class="card-img">
+                            <img src="https://placehold.co/400x200" alt="placeholder">
+                        </div>
+                        <div class="card-rarity common">
+                            <p>Rarity:</p>
+                        </div>
+                        <div class="card-moves">
+                            <p>Special Ability 1</p>
+                            <p>Special Ability 2</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <footer>
+            <p>&copy; 2024 DeckMaster Archive. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
