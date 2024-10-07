@@ -680,6 +680,10 @@ footer {
         display: flex;
         align-items: center;
     }
+
+    #home-img img {
+        margin: 0;
+    }
 }
 
 @media only screen and (min-width: 600px) {
