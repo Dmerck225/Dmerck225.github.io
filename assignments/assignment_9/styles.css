@@ -1,0 +1,38 @@
+:root {
+    --background-color: white;
+    --main-box-color: #741D12;
+    --main-txt-color: black;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* Header */
+
+#main-header {
+    text-align: center;
+}
+
+#main-header h1 {
+    color: var(--main-box-color);
+}
+
+#main-header h2 {
+    color: var(--main-txt-color);
+}
+
+/* Main Content */
+
+#main-content {
+    
+}
+
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
+
