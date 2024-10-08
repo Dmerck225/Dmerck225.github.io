@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <title>JavaScript: Arrays</title>
-    </head>
-    <body>
-        <header id="main-header">
-            <h1>Assignment 9</h1>
-            <h2>Classes</h2>
-        </header>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Gallary</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
 
-        <div id="main-content">
+    <div class="container">
+        <h1>Assignment 9</h1>
+        <h2>Classes</h2>
 
-            <div>
-                
-            </div>
-
+        <div class="bird-gallery" id="bird-gallery">
         </div>
-            
-        <footer>
-            <p>&copy; Dmerck225 2024</p>
-        </footer>
 
-        <script src="script.js"></script>
-    </body>
+        <footer>
+            <p>Images from FreePik</p>
+            <p>&copy; 2024 Dreyton Merck. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <div id="birdModal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-opacity">
+            <div class="w3-container">
+                <span onclick="document.getElementById('birdModal').style.display='none'"
+                      class="w3-button w3-display-topright">&times;</span>
+                <div id="modal-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
