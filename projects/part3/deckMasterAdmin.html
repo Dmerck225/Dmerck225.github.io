@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>DeckMaster Archive</title>
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img src="https://placehold.co/150x75" alt="DeckMaster Archive Logo">
+                <h1>DeckMaster Archive</h1>
+            </div>
+            <img id="login" src="https://placehold.co/25" alt="login">
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="cardLibrary.html">Card Library</a></li>
+                    <li><a href="deckBuilder.html">Deck Builder</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="deckMasterAdmin.html">DeckMaster Admin</a></li>
+                </ul>
+        </header>
+        
+        <h1 id="admin-title" >DeckMaster Admin</h1>
+        <h2 id="secondary-admin-title">Card Management</h2>
+        <div id="admin-content">
+            
+            <button>Search</button>
+            <input type="text" placeholder="Search for a card">
+            <div id="admin-search">
+                <seciton id="admin-search-cards">
+                    <img class="admin-card" src="https://placehold.co/150" alt="card1">
+                    <img class="admin-card" src="https://placehold.co/150" alt="card2">
+                    <img class="admin-card" src="https://placehold.co/150" alt="card3">
+                </seciton>
+                <section id="admin-buttons">
+                    <button id="edit-button">Edit</button>
+                    <button id="delete-button">Delete</button>
+                </section>
+            </div>
+            <h2>Add Card</h2>
+            <div id="admin-container" class="container">
+                
+                <section class="admin-box">
+                    <h3>Basic Information</h3>
+                    <div class="admin-input">
+                        <p>Name</p>
+                        <input class="admin-input-box" type="text" placeholder="">
+                    </div>
+                    <div class="admin-input">
+                        <p>Card Type</p>
+                        <input class="admin-input-box" type="text" placeholder="">
+                    </div>
+                </section>
+                <section class="admin-box">
+                    <h3>Card Details</h3>
+                    <div class="admin-input">
+                        <p>Rarity</p>
+                        <input class="admin-input-box" type="text" placeholder="">
+                    </div>
+                    <div class="admin-input">
+                        <p>Card Description</p>
+                        <input id="input-description" class="admin-input-box" type="text" placeholder="">
+                    </div>
+                </section>
+                
+                <section class="admin-box">
+                    <h3>Attributes</h3>
+                    <div class="admin-input">
+                        <p>Attack Stats</p>
+                        <input class="admin-input-box" type="text" placeholder="">
+                    </div>
+                    <div class="admin-input">
+                        <p>Defense Stats</p>
+                        <input class="admin-input-box" type="text" placeholder="">
+                    </div>
+                    <div class="admin-input">
+                        <p>Special Abilities</p>
+                        <input class="admin-input-box" type="text" placeholder="">
+                    </div>
+                </section>
+                
+                <section id="add-button-section" class="admin-box">
+                    <button id="add-button">Add Card</button>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>

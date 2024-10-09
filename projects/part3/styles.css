@@ -1,0 +1,273 @@
+:root {
+    --hover-color: #C0C0C0;
+    --text-color: black;
+}
+body {
+    margin: 0;
+}
+/* Header */
+#logo {
+    display: flex;
+}
+#login {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+/* navigation */
+#main-nav {
+    display: flex;
+    padding: 10px;
+}
+#main-nav ul {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    list-style-type: none;
+}
+#main-nav li {
+    margin-right: 10px;
+}
+#main-nav a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+#main-nav a:hover {
+    color: var(--hover-color);
+}
+/* Home */
+#home-tagLine{
+    text-align: center;
+    margin: 2%;
+}
+#home-bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+#news h2 {
+    text-align: center;
+}
+#news-list li{
+    margin-top: 10px;
+}
+#featured-cards {
+    text-align: center;
+}
+.home-bottom-section {
+    border-top: 1px solid var(--hover-color);
+}
+/* Card Library */
+#library-title {
+    text-align: center;
+}
+#search {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+#library-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.library-card {
+    margin-top: 10px;
+}
+/* Deck Builder */
+#deck-builder-title {
+    text-align: center;
+}
+#deck-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.deck-container {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+#deck-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#deck-add {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+#deck-add-button{
+    height: 30px;
+    width: 100px;
+}
+#deck-search-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 17%;
+}
+#deck-title {
+    text-align: center;
+}
+#deck-title h3 {
+    margin-top: 0;
+}
+#deck-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/* About Us */
+#about-title {
+    text-align: center;
+}
+#about-content {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#about {
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    flex: 50%;
+    padding-right: 5%;
+}
+#meet-the-team {
+    margin-top: 40px;
+}
+#meet-the-team p {
+    margin: 0;
+}
+#faq {
+    flex: 50%;
+}
+#faq-lists {
+    display: flex;
+    flex-direction: column;
+}
+#faq-lists h3 {
+    margin: 0;
+}
+#faq-lists ul {
+    list-style-type: none;
+}
+#faq-lists a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+#contact {
+    flex: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-input p {
+    padding-right: 10px;
+}
+#contact-message {
+    width: 300px;
+    height: 75px;
+}
+#contact-button {
+    margin-top: 20px;
+}
+/* DeckMaster Admin */
+#admin-title {
+    text-align: center;
+    border-bottom: 1px solid var(--hover-color);
+    margin-right: 30%;
+    margin-left: 30%;
+    padding-bottom: 15px;
+}
+#secondary-admin-title {
+    text-align: center;
+    padding-top: 0;
+}
+#admin-content {
+    margin-left: 5%;
+}
+#admin-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2%;
+}
+#admin-search-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.admin-card {
+    padding-right: 5%;
+    margin-top: 10px;
+}
+#admin-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    padding-right: 5%;
+}
+#edit-button {
+    height: 30px;
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#delete-button {
+    height: 30px;
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#admin-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+.admin-input {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.admin-box {
+    margin-right: 20px;
+}
+.admin-input-box {
+    height: 30px;
+    width: 200px;
+    margin-left: 10px;
+}
+#input-description {
+    height: 100px
+}
+#add-button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#add-button {
+    height: 50px;
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
