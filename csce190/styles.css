@@ -62,7 +62,7 @@ body {
     color: var(--main-text-color);
 }
 
-#affinity-diagram {
+.project-img {
     width: 300px;
 }
 
