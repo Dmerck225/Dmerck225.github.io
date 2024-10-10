@@ -231,12 +231,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 500px;
+    overflow: hidden;
 }
 
 #home-img img {
     max-width: 100%;
-    
-    overflow: hidden;
 }
 
 #home-arrows {
@@ -679,10 +678,6 @@ footer {
     #featured-cards-cards {
         display: flex;
         align-items: center;
-    }
-
-    #home-img img {
-        margin: 0;
     }
 }
 
