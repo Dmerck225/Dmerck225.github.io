@@ -8,6 +8,35 @@
     font-family: Arial, Helvetica, sans-serif;
     background-color: azure;
   }
+
+  #cocktails {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #cocktails img {
+    max-width: 100%;
+    width: 250px;
+
+  }
+
+  .div {
+    display: flex;
+  }
+
+  .section {
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+  }
+
+  .section-ingredients {
+    flex: 50%;
+    padding: 10px;
+  }
   
   /* Navigation */
   #main-nav ul {

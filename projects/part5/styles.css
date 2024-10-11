@@ -120,6 +120,7 @@ body {
     padding: 10px;
     background: var(--secondary-background-color);
     border-top: 1px solid var(--secondary-text-color);
+    padding: 2px;
 }
 
 #main-nav ul {
