@@ -1,6 +1,7 @@
 {
     "cards": [
       {
+        "_id": 1,
         "name": "Shadow Assassin",
         "cardType": "Creature",
         "rarity": "Rare",
@@ -12,9 +13,11 @@
           "Evasive Maneuver: 50% chance to avoid attacks.",
           "Silent Finish: Gains +20 attack after eliminating an enemy creature.",
           "Nightfall Ambush: Deals double damage to a stronger opponent once per game."
-        ]
+        ],
+        "img_name": "shadow_assassin.png"
       },
       {
+        "_id": 2,
         "name": "Thunder Golem",
         "cardType": "Creature",
         "rarity": "Legendary",
@@ -26,9 +29,11 @@
           "Electric Shield: Reduces incoming damage by 20%.",
           "Charged Strike: Doubles attack power after charging for one turn.",
           "Lightning Surge: Once per game, deals 50 damage and stuns an enemy for one turn."
-        ]
+        ],
+        "img_name": "thunder_golem.png"
       },
       {
+        "_id": 3,
         "name": "Crimson Knight",
         "cardType": "Creature",
         "rarity": "Epic",
@@ -40,9 +45,11 @@
           "Crimson Shield: Reduces damage from melee attacks by 25%.",
           "Battle Cry: Boosts attack of all allied creatures by +15 for two turns.",
           "Vampiric Strike: Heals for half the damage dealt to an opponent."
-        ]
+        ],
+        "img_name": "crimson_knight.png"
       },
       {
+        "_id": 4,
         "name": "Void Walker",
         "cardType": "Creature",
         "rarity": "Epic",
@@ -54,9 +61,11 @@
           "Soul Drain: Drains 30 health from an enemy creature, healing Void Walker by the same amount.",
           "Portal Strike: Once per game, teleports behind an enemy and deals double damage.",
           "Ethereal Form: Becomes immune to non-magical attacks for two turns."
-        ]
+        ],
+        "img_name": "void_walker.png"
       },
       {
+        "_id": 5,
         "name": "Ice Queen",
         "cardType": "Creature",
         "rarity": "Legendary",
@@ -68,9 +77,11 @@
           "Blizzard Call: Deals 40 damage to all enemies and reduces their attack by 10 for two turns.",
           "Ice Armor: Reduces damage taken by 30%.",
           "Frostbite: Inflicts 20 damage over time to a frozen creature."
-        ]
+        ],
+        "img_name": "ice_queen.png"
       },
       {
+        "_id": 6,
         "name": "Storm Elemental",
         "cardType": "Creature",
         "rarity": "Rare",
@@ -82,9 +93,11 @@
           "Electric Surge: Deals 20 damage to all nearby enemies upon attacking.",
           "Storm Field: Creates a storm for 3 turns, reducing all enemy defense by 10%.",
           "Gale Force: Pushes an enemy back, delaying its attack by one turn."
-        ]
+        ],
+        "img_name": "storm_elemental.png"
       },
       {
+        "_id": 7,
         "name": "Necromancer",
         "cardType": "Creature",
         "rarity": "Epic",
@@ -96,9 +109,11 @@
           "Dark Pact: Sacrifices 50 health to deal 100 damage to an enemy.",
           "Soul Reap: Gains +30 attack for each enemy creature destroyed.",
           "Death Touch: Inflicts instant death on a creature with less than 100 health."
-        ]
+        ],
+        "img_name": "necromancer.png"
       },
       {
+        "_id": 8,
         "name": "Phoenix Guardian",
         "cardType": "Creature",
         "rarity": "Legendary",
@@ -110,7 +125,8 @@
           "Flame Wings: Deals 50 damage to an enemy and burns them for 10 damage over time.",
           "Solar Flare: Boosts attack by +30 for two turns when it enters the battlefield.",
           "Fire Shield: Reduces fire-based damage by 50%."
-        ]
+        ],
+        "img_name": "phoenix_guardian.png"
       }
     ]
   }
