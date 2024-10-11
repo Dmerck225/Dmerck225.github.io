@@ -1,0 +1,117 @@
+{
+    "cards": [
+      {
+        "name": "Shadow Assassin",
+        "cardType": "Creature",
+        "rarity": "Rare",
+        "description": "A master of stealth, the Shadow Assassin strikes from the shadows, bypassing defenses and evading attacks.",
+        "attack": 180,
+        "defense": 90,
+        "abilities": [
+          "Stealth Strike: Can attack directly, bypassing defenses, once per turn.",
+          "Evasive Maneuver: 50% chance to avoid attacks.",
+          "Silent Finish: Gains +20 attack after eliminating an enemy creature.",
+          "Nightfall Ambush: Deals double damage to a stronger opponent once per game."
+        ]
+      },
+      {
+        "name": "Thunder Golem",
+        "cardType": "Creature",
+        "rarity": "Legendary",
+        "description": "A towering colossus empowered by lightning, the Thunder Golem strikes down enemies with devastating electrical force.",
+        "attack": 220,
+        "defense": 200,
+        "abilities": [
+          "Thunderstorm Blast: Deals 30 damage to all enemy creatures upon entering the battlefield.",
+          "Electric Shield: Reduces incoming damage by 20%.",
+          "Charged Strike: Doubles attack power after charging for one turn.",
+          "Lightning Surge: Once per game, deals 50 damage and stuns an enemy for one turn."
+        ]
+      },
+      {
+        "name": "Crimson Knight",
+        "cardType": "Creature",
+        "rarity": "Epic",
+        "description": "A warrior fueled by bloodlust, the Crimson Knight grows stronger with each victory in battle.",
+        "attack": 200,
+        "defense": 180,
+        "abilities": [
+          "Blood Frenzy: Gains +10 attack every time it destroys a creature.",
+          "Crimson Shield: Reduces damage from melee attacks by 25%.",
+          "Battle Cry: Boosts attack of all allied creatures by +15 for two turns.",
+          "Vampiric Strike: Heals for half the damage dealt to an opponent."
+        ]
+      },
+      {
+        "name": "Void Walker",
+        "cardType": "Creature",
+        "rarity": "Epic",
+        "description": "A mysterious entity from another dimension, the Void Walker uses teleportation and soul manipulation to outwit its foes.",
+        "attack": 170,
+        "defense": 150,
+        "abilities": [
+          "Void Shift: Can teleport out of combat, avoiding one attack per game.",
+          "Soul Drain: Drains 30 health from an enemy creature, healing Void Walker by the same amount.",
+          "Portal Strike: Once per game, teleports behind an enemy and deals double damage.",
+          "Ethereal Form: Becomes immune to non-magical attacks for two turns."
+        ]
+      },
+      {
+        "name": "Ice Queen",
+        "cardType": "Creature",
+        "rarity": "Legendary",
+        "description": "Ruling over the frozen tundra, the Ice Queen commands icy winds and frost to freeze her enemies in their tracks.",
+        "attack": 160,
+        "defense": 220,
+        "abilities": [
+          "Frozen Touch: Freezes an enemy creature, preventing it from attacking for one turn.",
+          "Blizzard Call: Deals 40 damage to all enemies and reduces their attack by 10 for two turns.",
+          "Ice Armor: Reduces damage taken by 30%.",
+          "Frostbite: Inflicts 20 damage over time to a frozen creature."
+        ]
+      },
+      {
+        "name": "Storm Elemental",
+        "cardType": "Creature",
+        "rarity": "Rare",
+        "description": "An embodiment of the storm, the Storm Elemental unleashes powerful gales and electrical surges to devastate opponents.",
+        "attack": 150,
+        "defense": 130,
+        "abilities": [
+          "Tempest Rage: Boosts attack by +20 in stormy conditions.",
+          "Electric Surge: Deals 20 damage to all nearby enemies upon attacking.",
+          "Storm Field: Creates a storm for 3 turns, reducing all enemy defense by 10%.",
+          "Gale Force: Pushes an enemy back, delaying its attack by one turn."
+        ]
+      },
+      {
+        "name": "Necromancer",
+        "cardType": "Creature",
+        "rarity": "Epic",
+        "description": "A master of dark magic, the Necromancer can manipulate life and death, raising fallen allies and draining the life force of enemies.",
+        "attack": 160,
+        "defense": 140,
+        "abilities": [
+          "Raise Dead: Revives one fallen ally creature with 50% health.",
+          "Dark Pact: Sacrifices 50 health to deal 100 damage to an enemy.",
+          "Soul Reap: Gains +30 attack for each enemy creature destroyed.",
+          "Death Touch: Inflicts instant death on a creature with less than 100 health."
+        ]
+      },
+      {
+        "name": "Phoenix Guardian",
+        "cardType": "Creature",
+        "rarity": "Legendary",
+        "description": "The immortal Phoenix Guardian rises from the ashes, bringing fiery destruction to all who oppose it.",
+        "attack": 240,
+        "defense": 180,
+        "abilities": [
+          "Rebirth: Once per game, resurrects after being destroyed with half health.",
+          "Flame Wings: Deals 50 damage to an enemy and burns them for 10 damage over time.",
+          "Solar Flare: Boosts attack by +30 for two turns when it enters the battlefield.",
+          "Fire Shield: Reduces fire-based damage by 50%."
+        ]
+      }
+    ]
+  }
+  
