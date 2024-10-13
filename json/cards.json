@@ -9,10 +9,8 @@
         "attack": 180,
         "defense": 90,
         "abilities": [
-          "Stealth Strike: Can attack directly, bypassing defenses, once per turn.",
-          "Evasive Maneuver: 50% chance to avoid attacks.",
-          "Silent Finish: Gains +20 attack after eliminating an enemy creature.",
-          "Nightfall Ambush: Deals double damage to a stronger opponent once per game."
+          "Stealth Strike: Shadow Assassin can attack directly, bypassing defenses, once per turn.",
+          "Evasive Maneuver: Shadow Assassin has a 50% chance to completely avoid incoming attacks."
         ],
         "img_name": "shadow_assassin.png"
       },
@@ -25,10 +23,8 @@
         "attack": 220,
         "defense": 200,
         "abilities": [
-          "Thunderstorm Blast: Deals 30 damage to all enemy creatures upon entering the battlefield.",
-          "Electric Shield: Reduces incoming damage by 20%.",
-          "Charged Strike: Doubles attack power after charging for one turn.",
-          "Lightning Surge: Once per game, deals 50 damage and stuns an enemy for one turn."
+          "ThunderStorm Blast:  Upon entering the battlefield, Thunder Golem deals 30 damage to all enemy creatures.",
+          "Electric Shield: Reduces incoming damage by 20% from all sources. This move reflects the golem's natural defense, absorbing and dispersing energy from attacks."
         ],
         "img_name": "thunder_golem.png"
       },
@@ -42,9 +38,7 @@
         "defense": 180,
         "abilities": [
           "Blood Frenzy: Gains +10 attack every time it destroys a creature.",
-          "Crimson Shield: Reduces damage from melee attacks by 25%.",
-          "Battle Cry: Boosts attack of all allied creatures by +15 for two turns.",
-          "Vampiric Strike: Heals for half the damage dealt to an opponent."
+          "Crimson Shield: Reduces damage from melee attacks by 25%."
         ],
         "img_name": "crimson_knight.png"
       },
@@ -58,9 +52,7 @@
         "defense": 150,
         "abilities": [
           "Void Shift: Can teleport out of combat, avoiding one attack per game.",
-          "Soul Drain: Drains 30 health from an enemy creature, healing Void Walker by the same amount.",
-          "Portal Strike: Once per game, teleports behind an enemy and deals double damage.",
-          "Ethereal Form: Becomes immune to non-magical attacks for two turns."
+          "Soul Drain: Drains 30 health from an enemy creature, healing Void Walker by the same amount."
         ],
         "img_name": "void_walker.png"
       },
@@ -74,9 +66,7 @@
         "defense": 220,
         "abilities": [
           "Frozen Touch: Freezes an enemy creature, preventing it from attacking for one turn.",
-          "Blizzard Call: Deals 40 damage to all enemies and reduces their attack by 10 for two turns.",
-          "Ice Armor: Reduces damage taken by 30%.",
-          "Frostbite: Inflicts 20 damage over time to a frozen creature."
+          "Blizzard Call: Deals 40 damage to all enemies and reduces their attack by 10 for two turns."
         ],
         "img_name": "ice_queen.png"
       },
@@ -89,10 +79,8 @@
         "attack": 150,
         "defense": 130,
         "abilities": [
-          "Tempest Rage: Boosts attack by +20 in stormy conditions.",
-          "Electric Surge: Deals 20 damage to all nearby enemies upon attacking.",
-          "Storm Field: Creates a storm for 3 turns, reducing all enemy defense by 10%.",
-          "Gale Force: Pushes an enemy back, delaying its attack by one turn."
+          "Gale Force: Pushes an enemy back, delaying its attack by one turn.",
+          "Storm Field: Creates a storm for 3 turns, reducing all enemy defense by 10%."
         ],
         "img_name": "storm_elemental.png"
       },
@@ -106,9 +94,7 @@
         "defense": 140,
         "abilities": [
           "Raise Dead: Revives one fallen ally creature with 50% health.",
-          "Dark Pact: Sacrifices 50 health to deal 100 damage to an enemy.",
-          "Soul Reap: Gains +30 attack for each enemy creature destroyed.",
-          "Death Touch: Inflicts instant death on a creature with less than 100 health."
+          "Dark Pact: Sacrifices 50 health to deal 100 damage to an enemy."
         ],
         "img_name": "necromancer.png"
       },
@@ -122,9 +108,7 @@
         "defense": 180,
         "abilities": [
           "Rebirth: Once per game, resurrects after being destroyed with half health.",
-          "Flame Wings: Deals 50 damage to an enemy and burns them for 10 damage over time.",
-          "Solar Flare: Boosts attack by +30 for two turns when it enters the battlefield.",
-          "Fire Shield: Reduces fire-based damage by 50%."
+          "Flame Wings: Deals 50 damage to an enemy and burns them for 10 damage over time."
         ],
         "img_name": "phoenix_guardian.png"
       }
