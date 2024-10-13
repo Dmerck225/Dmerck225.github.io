@@ -14,7 +14,6 @@ const showShoes = async() => { // then show data
     
     shoes.forEach((shoe) => {
         document.getElementById("shoes-section").append(getShoeSection(shoe));
-
     });
 };
 

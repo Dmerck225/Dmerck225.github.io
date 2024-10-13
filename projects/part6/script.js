@@ -27,13 +27,14 @@ showCards = async () => {
     const cards = data.cards;
 
     cards.forEach((card) => {
-        document.getElementById("cards").append(getCardSection(card));
+        document.getElementById("library-container").append(getCardSection(card));
     }); 
 };
 
 const getCardSection = (card) => {
     const container = document.createElement("div");
     container.classList.add("card-container");
+    container.classList.add(card.rarity.toLowerCase());
     document.getElementById("library-container").append(container);
 
     const content = document.createElement("div");
@@ -47,6 +48,34 @@ const getCardSection = (card) => {
     const h1 = document.createElement("h1");
     h1.innerHTML = card.name;
     title.append(h1);
+
+    const cardImg = document.createElement("div");
+    cardImg.classList.add("card-img");
+    content.append(cardImg);
+
+    const img = document.createElement("img");
+    img.src = card.img_name;
+    cardImg.append(img);
+
+    const cardRarity = document.createElement("div");
+    cardRarity.classList.add("card-rarity");
+    cardRarity.classList.add(card.rarity.toLowerCase());
+    content.append(cardRarity);
+
+    const rarity = document.createElement("p");
+    rarity.innerHTML = card.rarity;
+    cardRarity.append(rarity);
+
+    const cardMoves = document.createElement("div");
+    cardMoves.classList.add("card-moves");
+    content.append(cardMoves);
+    
+    card.abilities.forEach((move) => {
+        const ability = document.createElement("p");
+        ability.innerHTML = move;
+        cardMoves.append(ability); 
+    });
+
 
     return container;
 }
