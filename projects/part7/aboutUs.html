@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>DeckMaster Archive</title>
+    </head>
+    <body>
+
+        <header id="main-header">
+            <div id="logo">
+                <img src="images/DeckMasterArchive-logo.jpeg" alt="DeckMaster Archive Logo">
+                <h1>DeckMaster Archive</h1>
+            </div>
+            <div id="login">
+                <a href="login.html">Login</a>
+            </div>
+            <nav id="main-nav">
+                <div id="toggle-nav">
+                    <div id="toggle-nav-triangle" class="triangle-up"></div>
+                </div>
+                <ul id="nav-items" class="hidden-small">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="cardLibrary.html">Card Library</a></li>
+                    <li><a href="deckBuilder.html">Deck Builder</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="deckMasterAdmin.html">DeckMaster Admin</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1 id="about-title" >About Us</h1>
+
+        <div id="about-content" class="container">
+            <div id="about">
+                <section id="about-description">
+                    <h1>About DeckMaster Archive</h1>
+                    <p>DeckMaster Archive is a website dedicated to providing detailed information about cards used in our game. Our goal is to help players understand and strategize with their cards more effectively. </p>
+                </section>
+                <seciton id="meet-the-team">
+                    <h3>Meet The Team</h3>
+                    <img src="images/1727052101721.jpg" alt="team-member1">
+                    <p>Developer: Dreyton Merck</p>
+                </section>
+            </div>
+            <div id="faq">
+                <h1>Frequently Asked Questions</h1>
+                <p>Find answers to common questions about DeckMaster Archive.</p>
+                <section id="faq-lists">
+                    <h3>General Questions</h3>
+                    <ul>
+                        <li>What is DeckMaster Archive?</li>
+                        <li>Do I need an account to use the site?</li>
+                        <li>Is DeckMaster Archive free to use?</li>
+                        <li>Can I submit new cards to the database?</li>
+                    </ul>
+                    <h3>Account and Admin</h3>
+                    <ul>
+                        <li>How do I become and admin?</li>
+                        <li>How do I add new cards as an admin?</li>
+                        <li>Can I delete my account?</li>
+                        <li>What should I do if I find an error in a card's information?</li>
+                    </ul>
+                    <h3>Technical Issues</h3>
+                    <ul>
+                        <li>Why can't i upload an image for a card?</li>
+                        <li>The site isnt displaying correctly--what should I do?</li>
+                        <li>Why is the Deck Builder not saving my deck?</li>
+                        <li>What browsers are supported by DeckMaster Archive?</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <div id="contact">
+            <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <p>Have a question or feedback? Feel free to reach out!</p>
+    
+                <input type="hidden" name="access_key" value="534a0a64-512b-42ec-b00e-7f067c5d49fa">
+    
+                <input class="contact-input" type="text" name="name" placeholder="Name" required />
+                <input class="contact-input" type="email" name="email" placeholder="Email" required />
+                <textarea id="contact-message" class="contact-input" name="message" placeholder="Message" required></textarea>
+                
+                <button class = input type="submit">Submit</button>
+
+                <p id="result"></p>
+    
+            </form>
+        </div>
+        <footer>
+            <p>&copy; 2024 DeckMaster Archive. All rights reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
