@@ -335,6 +335,12 @@ body {
     height: 150px;
 }
 
+.news-card-img iframe {
+    width: 250px;
+    max-width: 100%;
+    height: 150px;
+}
+
 .news-card-text {
     flex: 50%;
     padding: 2%;
