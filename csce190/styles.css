@@ -44,7 +44,11 @@ body {
 /* about */
 
 .about {
+    padding: 1%;
+}
 
+#profile-pic {
+    width: 150px;
 }
 
 /* skills */
