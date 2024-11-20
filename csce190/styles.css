@@ -54,7 +54,12 @@ body {
 /* skills */
 
 .skills {
-    
+    padding: 1%;
+}
+
+.skills a {
+    color: var(--main-text-color);
+    text-decoration: none;
 }
 
 /* project */
