@@ -9,6 +9,7 @@
 .box {
     flex: 40%;
     min-height: 300px;
+    width: 80%;
     box-shadow: 5px 5px 5px black;
     background: var(--box-color);
     margin: 2%;
@@ -29,9 +30,19 @@ body {
 #main-content {
     background: var(--secondary-background-color);
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
-    margin: 2%;
+    align-items: center;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 2%;
+}
+
+#skills-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--secondary-background-color);
 }
 
 /* Header */
@@ -45,10 +56,12 @@ body {
 
 .about {
     padding: 1%;
+    text-align: center;
 }
 
 #profile-pic {
     width: 150px;
+    border-radius: 50%;
 }
 
 /* skills */
@@ -61,6 +74,7 @@ body {
 .skills a {
     color: var(--main-text-color);
     text-decoration: none;
+    font-weight: bold;
 }
 
 /* project */
@@ -79,7 +93,12 @@ body {
 /* contact */
 
 .contact {
-    
+    padding: 1%;
+    text-align: center;
+}
+
+.contact a {
+    color: var(--main-text-color);
 }
 
 /* Footer */
